@@ -16,9 +16,12 @@ function App() {
     try {
       setLoading(true);
 
-      const response = await axios.post("http://localhost:5000/summarize", {
-        article,
-      });
+      const response = await axios.post(
+        "https://newsmind-ai-backend-1z8o.onrender.com/summarize",
+        {
+          article,
+        },
+      );
 
       setData(response.data.data);
     } catch (error) {
