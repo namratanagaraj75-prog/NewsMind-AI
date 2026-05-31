@@ -1,82 +1,42 @@
-# NewsMind-AI
-
 # NewsMind AI
 
-AI Editorial & Summarization Suite
-
-## Overview
-
-NewsMind AI is a GenAI-powered newsroom assistant that converts long news articles into concise editorial outputs.
-
-The platform helps journalists, editors, and media teams generate:
-
-* 50-word summaries
-* 100-word summaries
-* Key highlights
-* Important facts
-* SEO headlines
-* Social media posts
-* Reading time estimates
+AI-powered News Summarization and Editorial Assistant built using React, Node.js, Express, and Google Gemini AI.
 
 ## Features
 
-* AI-powered news summarization
-* SEO headline generation
-* Social media content creation
-* Downloadable reports
-* Copy-to-clipboard functionality
-* Professional dashboard UI
-* Responsive design
+- 50-word summary
+- 100-word summary
+- Key highlights extraction
+- Important facts extraction
+- SEO headline generation
+- Social media post generation
+- Reading time estimation
+- Downloadable report
 
 ## Tech Stack
 
-### Frontend
+Frontend:
+- React
+- Vite
+- Tailwind CSS
+- Axios
 
-* React
-* Vite
-* Tailwind CSS
+Backend:
+- Node.js
+- Express.js
+- Google Gemini AI
 
-### Backend
+Deployment:
+- Vercel
+- Render
 
-* Node.js
-* Express.js
+## Live Demo
 
-### AI
+Frontend:
+https://news-mind-ai.vercel.app
 
-* Google Gemini 2.5 Flash
-
-## Installation
-
-### Frontend
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-### Backend
-
-```bash
-cd backend
-npm install
-npm run dev
-```
-
-## Environment Variables
-
-Create a `.env` file inside backend:
-
-GEMINI_API_KEY=AQ.Ab8RN6IXxxRc6D8Q7DUa-rcv9ng6jMBEx
-PORT=5000
-
-## Future Enhancements
-
-* Multi-language support
-* News URL extraction
-* PDF export
-* Article categorization
-* User authentication
+Backend:
+https://newsmind-ai-backend-1z8o.onrender.com
 
 ## Author
 
